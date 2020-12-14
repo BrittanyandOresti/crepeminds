@@ -3,20 +3,23 @@ html{
  width: 100vw;
  margin: 0;
 }
-
-header{
+.hrefs{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
  background-image: url("img/backgroundpic.png");
- height: 30vh;
+ border-radius: 10% / 50%;
+ height: 15vh;
  width: 100vw;
-
+ font-size: 3em;
+ padding-top: 7vh;
 }
+
 body{
  background-image: url("img/backgroundpic2.png");
  background-size: cover;
  background-repeat: no-repeat;
-
 }
-
 .favs{
  display: flex;
  justify-content: space-around;
@@ -26,19 +29,17 @@ body{
 }
 #in,#ph,#en,#fb{
  padding-top: 10vh;
- color: white;
- font-size: 3em;
-
+ color: #422908;
+ font-size: 5em;
 }
-body{
-
-
-}
-
 #logo{
 background-color: lightgrey;
 height: 25vh;
 width: 35vw;
-border-radius: 50% 20% / 10% 40%;
-padding: 20px;
+border-radius: 10px 100px / 120px;;
+padding-left: 3%;
+padding-right: 3%;
+}
+.hrefs{
+
 }
