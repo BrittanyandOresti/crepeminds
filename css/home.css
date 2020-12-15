@@ -1,7 +1,23 @@
-.calendar{
- padding-left: 50%;
+.calendar,.order{
 }
 #calendarid{
  height: 50vh;
  width: 40vw;
+}
+
+#ON{
+ color: Red;
+ font-size: 5em;
+}
+.order{
+ height: 40vh;
+ background-color: rgba(211,211,211,.7);
+ border-radius: 10% 30% 50% 70%;
+ padding: 2%;
+
+
+}
+.yomomma{
+display: flex;
+justify-content: space-around;
 }
